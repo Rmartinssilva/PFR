@@ -1,0 +1,202 @@
+style{
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+html{
+    display: absolute;
+
+}body img{
+    background-color: #fffff;
+    margin:0;
+}    
+
+
+body {
+    background: #FFFFFF;
+    margin: 0;
+  }
+
+  
+  [show-background-image] #backgroundImage {
+    visibility: visible;
+  }
+  .logo{
+    color: #000000;
+    margin-top:0px;
+    font-size: 25px;
+    left: 60px;
+}
+.logo h3{
+    margin:10px;
+
+}
+
+.menu-container{
+    justify-content: center;
+
+
+}
+.menu-container a.active-menu{
+    background-color:#ff00ff;
+    margin:30px;
+    right: 100px;
+}
+
+.menu-container a{
+    
+    display:center;
+    margin:px;
+    text-decoration: center;
+    padding: 0 10px;
+    line-height: 90px;
+    transition: 0.8s;
+}
+.menu-container a:hover{
+    color: #808080;
+}
+
+section.main{
+    min-height: 1000px;
+    background-size:contain;
+    position: absolute;
+
+}
+
+section.conteudos{
+
+color: #000000;
+padding: 0;
+display:grid;
+text-align:inherit;
+margin-left:60px;
+
+}
+
+.conteudobio{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    padding: 0 80px;
+    position: relative;
+    font-size: 10px;
+    font-weight: 10px;
+}
+.conteudobio img{
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 100%; 
+    left:10%;
+    transform: translate(0%, -20%);  
+}
+article{
+    column-count: 2;
+
+}
+.article h3{
+    font-size:0px;
+    margin: 25px;
+}
+.article p{
+    font-size: 30px;
+    margin: 25px;
+}
+
+section.formacao{
+display: relative;
+}
+
+.conteudotech{
+    text-align:center;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+.conteudotech img{
+    position: relative;
+    width: 880px;
+    height: 440px;
+    left: 430px;   
+    transform: translate(0%, -20%);  
+}
+
+.formacao h3{
+    font-size: 25px;
+    margin: 90px;
+    text-align: justify;
+
+}
+
+section.feitos{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.primeirobug img{
+    position: relative;
+    width: 528px;
+    height: 228px;
+    left: 430px;   
+
+}
+.feitos h3{
+    font-size: 25px;
+    margin: 130px;
+    text-align: justify;
+    align-items: center;
+
+}
+
+.linguagem img{
+    position: relative;
+    width: 764px;
+    height: 430px;
+    left: 40px;   
+}
+
+.comp h3{
+
+    font-size: 25px;
+    margin: 90px;
+    text-align:justify;
+    align-items:center;
+}
+
+.section sc{
+
+    display: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.sc h3{
+    font-size: 25px;
+    margin: 90px;
+    text-align:justify;
+    align-items:center;
+
+}
+.women img{
+    position: relative;
+    width: 880px;
+    height: 1020px;
+    left: 430px;
+}
+
+.feitos img{
+    position: relative;
+    width: 880px;
+    height: 1020px;
+    left: 430px;
+}
+
+.video{
+    text-align: center;
+} 
